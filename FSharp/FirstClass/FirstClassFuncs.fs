@@ -128,7 +128,7 @@ addBy100 10 |> printfn "100 + 10 = %d"
 
 
 
-// The other way to dynamically create a function at runtime: the "fun" keyword.
+// The other way to dynamically creat\e a function at runtime: the "fun" keyword.
 // Say I want to call the earlier sumList function to find the sum of multiples of 3.
 // I COULD write a new predicate "isMultOf3"... but I don't really need that function
 // to have a name. I really just need an anonymous function that does what I need

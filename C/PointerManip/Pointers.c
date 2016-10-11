@@ -9,7 +9,7 @@ int main() {
 	int *pToInt = &intValue;
 
 	// pToInt contains the address of intValue, and when dereferenced, will read a 4-byte
-	// integer value from the address that it points to.
+	// integer value from the address that it points to
 
 	// C is very type-unsafe when it comes to pointers, and allows things like this:
 	float *pToFloat = (float*)&intValue;
