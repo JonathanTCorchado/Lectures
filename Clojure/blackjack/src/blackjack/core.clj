@@ -1,4 +1,4 @@
-  ;; To run this code: open a command prompt to the project directory, then type "lein run"
+   ;; To run this code: open a command prompt to the project directory, then type "lein run"
 
 (ns blackjack.core
   (:gen-class))

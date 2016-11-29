@@ -1,6 +1,6 @@
 % Check if a list contains the number 0.
 contains0([0|_]). % if the head is 0, we don't care about the tail.
-contains0([_|T]) :- contains0(T). % if the head is not 0, check the tail.
+contains0([_|T]) :- contains0(T). % if the head is not 0, check the tail.   XXq
 
 % Check if a list contains the given value.
 contains([X|_], X).
@@ -13,6 +13,46 @@ mylength([_|T], L) :- length(T, S), L is S + 1.
 % Check if the sum of the elements of a list matches the given value.
 sum([], 0).
 sum([H|T], S) :- sum(T, D), S is D + H.
+
+third([H|T],A) :- mylength([H],2)
+third(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 % mylength and sum are not tail-recursive, so let's try making them so.
